@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DEFEF728-139D-436E-936D-18CAA09F12B3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ApplicationLayer</RootNamespace>
+    <AssemblyName>ApplicationLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddItem.cs" />
+    <Compile Include="AdminManageProduct.cs" />
+    <Compile Include="BrandList.cs" />
+    <Compile Include="Combine_sort_phone.cs" />
+    <Compile Include="contact.cs" />
+    <Compile Include="CustomerAddress.cs" />
+    <Compile Include="DeleteSellerProduct.cs" />
+    <Compile Include="DisplayProdSellerInfo.cs" />
+    <Compile Include="GetDID.cs" />
+    <Compile Include="InsertProdPermanent.cs" />
+    <Compile Include="logincheck.cs" />
+    <Compile Include="ModelList.cs" />
+    <Compile Include="PendingDelivery.cs" />
+    <Compile Include="ProductDetails.cs" />
+    <Compile Include="ProductSeller.cs" />
+    <Compile Include="Profile.cs" />
+    <Compile Include="Registration.cs" />
+    <Compile Include="Search.cs" />
+    <Compile Include="SelectImage.cs" />
+    <Compile Include="SelectProd.cs" />
+    <Compile Include="ShowStatus.cs" />
+    <Compile Include="SpecificationClass.cs" />
+    <Compile Include="LatestPhones.cs" />
+    <Compile Include="PriceRange.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpecificBrandPhones.cs" />
+    <Compile Include="UpdateProdSellerInfo.cs" />
+    <Compile Include="updatespecification.cs" />
+    <Compile Include="UpdateStatus.cs" />
+    <Compile Include="ViewPendingDelivery.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DataLayer\DataLayer\DataLayer.csproj">
+      <Project>{ACF5BA42-4B77-43D2-BAD8-243DEB4E58EE}</Project>
+      <Name>DataLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

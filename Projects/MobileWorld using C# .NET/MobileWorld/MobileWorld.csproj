@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{25B99CDA-CEA7-4B90-9897-CE43EA80535F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MobileWorld</RootNamespace>
+    <AssemblyName>MobileWorld</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.60919.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AboutUs.aspx" />
+    <Content Include="Accessories\700-nokia_bluetooth_headset_bh902.jpg" />
+    <Content Include="Accessories\bluetooth-earphone-jack.jpg" />
+    <Content Include="Accessories\imagesCA736DCX.jpg" />
+    <Content Include="Accessories\imagesCAFFDPE7.jpg" />
+    <Content Include="Accessories\imagesCAQVQHGD.jpg" />
+    <Content Include="Accessories\imagesCASLZEAQ.jpg" />
+    <Content Include="Accessories\Jabra-CLEAR.jpg" />
+    <Content Include="Admin.aspx" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="css\screen.css" />
+    <Content Include="CustomerProfile.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="Image\1244090333715.jpg" />
+    <Content Include="Image\about_us_tab.png" />
+    <Content Include="Image\apple.jpg" />
+    <Content Include="Image\background.jpg" />
+    <Content Include="Image\button_change_color.gif" />
+    <Content Include="Image\carbono.jpg" />
+    <Content Include="Image\contact_us_tab.png" />
+    <Content Include="Image\delete.jpg" />
+    <Content Include="Image\Grey-website-background.jpg" />
+    <Content Include="Image\home_page_bg.png" />
+    <Content Include="Image\home_tab.png" />
+    <Content Include="Image\in_GT-N7100TADINU_018_Dynamic_gray.jpg" />
+    <Content Include="Image\iphone4s.PNG" />
+    <Content Include="Image\iphone5.PNG" />
+    <Content Include="Image\jpgXCSbkjv6lV.jpg" />
+    <Content Include="Image\login-background.jpg" />
+    <Content Include="Image\loginteam4.PNG" />
+    <Content Include="Image\login_button.jpg" />
+    <Content Include="Image\logo.jpg" />
+    <Content Include="Image\master_page_bg.jpg" />
+    <Content Include="Image\master_page_bg.png" />
+    <Content Include="Image\master_page_new.png" />
+    <Content Include="Image\menustrip.jpg" />
+    <Content Include="Image\menu_strip.png" />
+    <Content Include="Image\Mobiles\asha.jpg" />
+    <Content Include="Image\Mobiles\blackberry.jpg" />
+    <Content Include="Image\Mobiles\evo.jpg" />
+    <Content Include="Image\Mobiles\hero.jpg" />
+    <Content Include="Image\Mobiles\hp.jpg" />
+    <Content Include="Image\Mobiles\htc.jpg" />
+    <Content Include="Image\Mobiles\htc2.jpg" />
+    <Content Include="Image\Mobiles\htc3.jpg" />
+    <Content Include="Image\Mobiles\htcwin.jpg" />
+    <Content Include="Image\Mobiles\iphone.jpg" />
+    <Content Include="Image\Mobiles\iphone5.jpg" />
+    <Content Include="Image\Mobiles\lava.jpg" />
+    <Content Include="Image\Mobiles\lava2.jpg" />
+    <Content Include="Image\Mobiles\lava3.jpg" />
+    <Content Include="Image\Mobiles\lavac3.jpg" />
+    <Content Include="Image\Mobiles\lavaxolo.jpg" />
+    <Content Include="Image\Mobiles\lg.jpg" />
+    <Content Include="Image\Mobiles\lg2.jpg" />
+    <Content Include="Image\Mobiles\lg3.jpg" />
+    <Content Include="Image\Mobiles\lg4.jpg" />
+    <Content Include="Image\Mobiles\lumia.jpg" />
+    <Content Include="Image\Mobiles\micromax a85.jpg" />
+    <Content Include="Image\Mobiles\micromax.jpg" />
+    <Content Include="Image\Mobiles\micromax2.jpg" />
+    <Content Include="Image\Mobiles\micromax3.jpg" />
+    <Content Include="Image\Mobiles\micromax7.jpg" />
+    <Content Include="Image\Mobiles\mobiles.jpg" />
+    <Content Include="Image\Mobiles\mobiles2.jpg" />
+    <Content Include="Image\Mobiles\mobiles3.jpg" />
+    <Content Include="Image\Mobiles\mobiles4.jpg" />
+    <Content Include="Image\Mobiles\mobiles5.jpg" />
+    <Content Include="Image\Mobiles\mobiles6.jpg" />
+    <Content Include="Image\Mobiles\mobiles7.jpg" />
+    <Content Include="Image\Mobiles\motodroid.jpg" />
+    <Content Include="Image\Mobiles\nexus.jpg" />
+    <Content Include="Image\Mobiles\nokia.jpg" />
+    <Content Include="Image\Mobiles\nokia2.jpg" />
+    <Content Include="Image\Mobiles\nokia700.jpg" />
+    <Content Include="Image\Mobiles\note2.jpg" />
+    <Content Include="Image\Mobiles\omnia.jpg" />
+    <Content Include="Image\Mobiles\optimus.jpg" />
+    <Content Include="Image\Mobiles\s3.jpg" />
+    <Content Include="Image\Mobiles\samsung.jpg" />
+    <Content Include="Image\Mobiles\samsung2.jpg" />
+    <Content Include="Image\Mobiles\spice.jpg" />
+    <Content Include="Image\Mobiles\tabs.jpg" />
+    <Content Include="Image\Mobiles\xperia.jpg" />
+    <Content Include="Image\mobile_logo.jpg" />
+    <Content Include="Image\mobile_world_2.png" />
+    <Content Include="Image\my_profile_tab.png" />
+    <Content Include="Image\pad.jpg" />
+    <Content Include="Image\phone.png" />
+    <Content Include="Image\phone1.jpg" />
+    <Content Include="Image\phone_button.png" />
+    <Content Include="Image\phone_new.png" />
+    <Content Include="Image\preview.png" />
+    <Content Include="Image\product_results.png" />
+    <Content Include="Image\red-delete-button.jpg" />
+    <Content Include="Image\Samsung-Galaxy-S3-white-blue.jpg" />
+    <Content Include="Image\samsung_s3.jpg" />
+    <Content Include="Image\search.jpg" />
+    <Content Include="Image\slider.png" />
+    <Content Include="Image\submit.jpg" />
+    <Content Include="Image\tab_select.png" />
+    <Content Include="Image\tab_select_menu.png" />
+    <Content Include="Image\upload.jpg" />
+    <Content Include="Image\Wooden_Boards.jpg" />
+    <Content Include="Image\wooden_wall.jpg" />
+    <Content Include="js\easySlider1.7.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="Mobile_Images\700-nokia_lumia_620.jpg" />
+    <Content Include="Mobile_Images\9900Bold.jpg" />
+    <Content Include="Mobile_Images\apple 5.jpg" />
+    <Content Include="Mobile_Images\asha.jpg" />
+    <Content Include="Mobile_Images\blackberry.jpg" />
+    <Content Include="Mobile_Images\GALAXY_Ace_DUOS_Product_Image_%281%29.jpg" />
+    <Content Include="Mobile_Images\GALAXY_S_II_Plus_Product_Image_%281%29.jpg" />
+    <Content Include="Mobile_Images\Glossy%2520Upload%2520Button.jpg" />
+    <Content Include="Mobile_Images\iPhone-4s.jpg" />
+    <Content Include="Mobile_Images\iphone4.jpg" />
+    <Content Include="Mobile_Images\iPhone_5.jpg" />
+    <Content Include="Mobile_Images\noka-c7_3.jpg" />
+    <Content Include="Mobile_Images\nokia-100-front~0.jpg" />
+    <Content Include="Mobile_Images\nokia-101.jpg" />
+    <Content Include="Mobile_Images\nokia-1280.jpg" />
+    <Content Include="Mobile_Images\nokia-e7_2.jpg" />
+    <Content Include="Mobile_Images\nokia-n8-blue.jpg" />
+    <Content Include="Mobile_Images\note2.jpg" />
+    <Content Include="Mobile_Images\omnia-m-1.jpg" />
+    <Content Include="Mobile_Images\s3.jpg" />
+    <Content Include="Mobile_Images\samsung-galaxy-grand.jpg" />
+    <Content Include="Mobile_Images\samsung_s3.jpg" />
+    <Content Include="Mobile_Images\Storm.jpg" />
+    <Content Include="Mobile_Images\Torch_9860-9850.jpg" />
+    <Content Include="Mobile_Images\xperia-p.png" />
+    <Content Include="Mobile_Images\xperia-s.png" />
+    <Content Include="Mobile_Images\xperia-u.png" />
+    <Content Include="Pay.aspx" />
+    <Content Include="product.aspx" />
+    <Content Include="SearchResult.aspx" />
+    <Content Include="SellerProfile.aspx" />
+    <Content Include="ShowPhoneRequest.aspx" />
+    <Content Include="UserRegistration.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerProfile.aspx.cs">
+      <DependentUpon>CustomerProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerProfile.aspx.designer.cs">
+      <DependentUpon>CustomerProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pay.aspx.cs">
+      <DependentUpon>Pay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pay.aspx.designer.cs">
+      <DependentUpon>Pay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="product.aspx.cs">
+      <DependentUpon>product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="product.aspx.designer.cs">
+      <DependentUpon>product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchResult.aspx.cs">
+      <DependentUpon>SearchResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchResult.aspx.designer.cs">
+      <DependentUpon>SearchResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SellerProfile.aspx.cs">
+      <DependentUpon>SellerProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SellerProfile.aspx.designer.cs">
+      <DependentUpon>SellerProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPhoneRequest.aspx.cs">
+      <DependentUpon>ShowPhoneRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowPhoneRequest.aspx.designer.cs">
+      <DependentUpon>ShowPhoneRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserRegistration.aspx.cs">
+      <DependentUpon>UserRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserRegistration.aspx.designer.cs">
+      <DependentUpon>UserRegistration.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Main.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="css\.DS_Store" />
+    <None Include="Image\Mobiles\Thumbs.db" />
+    <None Include="Image\Thumbs.db" />
+    <None Include="js\.DS_Store" />
+    <None Include="Mobile_Images\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ApplicationLayer\ApplicationLayer\ApplicationLayer.csproj">
+      <Project>{defef728-139d-436e-936d-18caa09f12b3}</Project>
+      <Name>ApplicationLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56964</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

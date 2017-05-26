@@ -1,0 +1,133 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="MobileWorld.Main" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .bgpopup
+        {
+            background-color:Silver;
+        }
+        .round
+        {
+            z-index: 1;
+            left: 657px;
+            top: 94px;
+            position: absolute;
+            width: 148px;
+            height: 24px;
+        }
+        
+        .ModalpopupBG
+        {
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+        }
+        #popup
+        {
+            height: 201px;
+            width: 473px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form2" runat="server">
+    <div style="background-image: url('Image/master_page_bg.jpg'); height: 963px; width: 1025px;
+        margin-right: 1px;">
+        <asp:LinkButton ID="LinkBtnLogout" runat="server" ForeColor="#FFB340" 
+            onclick="LinkBtnLogout_Click" 
+            style="z-index: 1; left: 882px; top: 25px; position: absolute" 
+            Visible="False">Logout</asp:LinkButton>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <asp:LinkButton ID="LinkButton1" runat="server" Style="z-index: 1; left: 731px; top: 24px;
+            position: absolute; right: 262px;" onclick="LinkButton1_Click" 
+            ForeColor="#FFAE35">login</asp:LinkButton>
+        <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="#FFB951" 
+            NavigateUrl="~/UserRegistration.aspx" 
+            style="z-index: 1; left: 796px; top: 26px; position: absolute">Registration</asp:HyperLink>
+
+        <asp:ModalPopupExtender ID="LinkButton1_ModalPopupExtender" runat="server" DynamicServicePath=""
+            Enabled="True" TargetControlID="LinkButton1" CancelControlID="btnCancel" PopupControlID="loginpopup"
+            Drag="True" DropShadow="True" PopupDragHandleControlID="PopUpHeader" 
+            BackgroundCssClass="bgpopup"></asp:ModalPopupExtender>
+       
+        <table>
+            <tr>
+                <td>
+                    <asp:TextBox ID="txtSearch" runat="server" Style="z-index: 1; left: 764px; top: 58px;
+                        position: absolute; height: 18px; width: 135px;" 
+                        OnTextChanged="txtSearch_TextChanged"></asp:TextBox>
+                    <asp:ImageButton ID="ImageButton5" runat="server" ImageUrl="~/Image/search.jpg" Style="z-index: 1;
+                        left: 918px; top: 57px; position: absolute; height: 26px; width: 44px" OnClick="ImageButton5_Click" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImgBtnHome" runat="server" ImageUrl="~/Image/home_tab.png" Style="z-index: 1;
+                        left: 88px; top: 54px; position: absolute; height: 28px; width: 144px; right: 722px;"
+                        OnClick="ImgBtnHome_Click" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImgBtnMyProfile" runat="server" ImageUrl="~/Image/my_profile_tab.png"
+                        Style="z-index: 1; left: 252px; top: 54px; position: absolute; height: 29px;
+                        width: 153px; right: 359px;" OnClick="ImgBtnMyProfile_Click" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImgBtnContactUs" runat="server" ImageUrl="~/Image/contact_us_tab.png"
+                        Style="z-index: 1; left: 426px; top: 54px; position: absolute; height: 29px;
+                        width: 146px;" OnClick="ImgBtnContactUs_Click" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImgBtnAboutUs" runat="server" ImageUrl="~/Image/about_us_tab.png"
+                        Style="z-index: 1; left: 589px; top: 54px; position: absolute; height: 28px;
+                        width: 148px;" OnClick="ImgBtnAboutUs_Click" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Label ID="Label2" runat="server" Text="Team4" Font-Bold="False" Font-Names="Bodoni MT"
+                        ForeColor="White" Style="z-index: 1; left: 496px; top: 943px; position: absolute;
+                        width: 85px; height: 19px"></asp:Label>
+                </td>
+            </tr>
+        </table>
+        <table id="loginpopup" 
+            style="height: 215px; width: 493px; top: 85px; left: 100px; position: fixed;
+            background-image: url('/Image/login-background.jpg'); background-color: #C0C0C0;">
+            <tr>
+                <td class="style8" align="center">
+                    &nbsp;<asp:Label ID="lblUserName" runat="server" Text="Username"></asp:Label>
+                </td>
+                <td class="style8" align="center">
+                    <asp:TextBox ID="txtUsername" runat="server"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <asp:Label ID="lblPassword" runat="server" Text="Pasword"></asp:Label>
+                </td>
+                <td align="center">
+                    <asp:TextBox ID="txtPassword" runat="server" TextMode="Password" OnTextChanged="txtPassword_TextChanged"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td class="style9" align="center">
+                    <asp:Button ID="btnLogin" runat="server" Text="Login" Width="61px" OnClick="btnLogin_Click" />
+                </td>
+                <td class="style9">
+                    <asp:Button ID="btnCancel" runat="server" Text="Cancel" OnClick="btnCancel_Click" />
+                </td>
+            </tr>
+            <tr>
+            <td align="center">
+                <asp:HyperLink ID="HyperLinkregister" runat="server" 
+                    NavigateUrl="~/UserRegistration.aspx">New user...Click Here</asp:HyperLink>
+            </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

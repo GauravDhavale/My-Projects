@@ -1,0 +1,21 @@
+c:\users\pcuser\documents\visual studio 2010\Projects\MobileWorld\MobileWorld\bin\MobileWorld.dll
+c:\users\pcuser\documents\visual studio 2010\Projects\MobileWorld\MobileWorld\bin\MobileWorld.pdb
+c:\users\pcuser\documents\visual studio 2010\Projects\MobileWorld\MobileWorld\bin\ApplicationLayer.dll
+c:\users\pcuser\documents\visual studio 2010\Projects\MobileWorld\MobileWorld\bin\DataLayer.dll
+c:\users\pcuser\documents\visual studio 2010\Projects\MobileWorld\MobileWorld\bin\ApplicationLayer.pdb
+c:\users\pcuser\documents\visual studio 2010\Projects\MobileWorld\MobileWorld\bin\DataLayer.pdb
+c:\users\pcuser\documents\visual studio 2010\Projects\MobileWorld\MobileWorld\obj\Debug\ResolveAssemblyReference.cache
+c:\users\pcuser\documents\visual studio 2010\Projects\MobileWorld\MobileWorld\obj\Debug\MobileWorld.dll
+c:\users\pcuser\documents\visual studio 2010\Projects\MobileWorld\MobileWorld\obj\Debug\MobileWorld.pdb
+\\172.29.20.46\Users\pcuser\Documents\Visual Studio 2010\Projects\MobileWorld\MobileWorld\bin\MobileWorld.dll
+\\172.29.20.46\Users\pcuser\Documents\Visual Studio 2010\Projects\MobileWorld\MobileWorld\bin\MobileWorld.pdb
+\\172.29.20.46\Users\pcuser\Documents\Visual Studio 2010\Projects\MobileWorld\MobileWorld\bin\ApplicationLayer.dll
+\\172.29.20.46\Users\pcuser\Documents\Visual Studio 2010\Projects\MobileWorld\MobileWorld\bin\DataLayer.dll
+\\172.29.20.46\Users\pcuser\Documents\Visual Studio 2010\Projects\MobileWorld\MobileWorld\bin\ApplicationLayer.pdb
+\\172.29.20.46\Users\pcuser\Documents\Visual Studio 2010\Projects\MobileWorld\MobileWorld\bin\DataLayer.pdb
+\\172.29.20.46\Users\pcuser\Documents\Visual Studio 2010\Projects\MobileWorld\MobileWorld\obj\Debug\ResolveAssemblyReference.cache
+\\172.29.20.46\Users\pcuser\Documents\Visual Studio 2010\Projects\MobileWorld\MobileWorld\obj\Debug\MobileWorld.dll
+\\172.29.20.46\Users\pcuser\Documents\Visual Studio 2010\Projects\MobileWorld\MobileWorld\obj\Debug\MobileWorld.pdb
+F:\GitHub\Web Application\MobileWorld\MobileWorld\obj\Debug\MobileWorld.csprojResolveAssemblyReference.cache
+F:\GitHub\Web Application\MobileWorld\MobileWorld\obj\Debug\MobileWorld.dll
+F:\GitHub\Web Application\MobileWorld\MobileWorld\obj\Debug\MobileWorld.pdb
